@@ -1,0 +1,91 @@
+# ====================
+# Python 通用忽略
+# ====================
+# 编译的字节码
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 测试和覆盖率
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# 虚拟环境
+venv/
+env/
+.venv/
+pip-delete-this-directory.txt
+
+# 包安装文件
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+parts/
+sdist/
+var/
+wheels/
+*.whl
+
+# ====================
+# 框架特定忽略
+# ====================
+# Django
+*.log
+*.pot
+*.pyo
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+. flaskenv
+
+# ====================
+# 编辑器/IDE 配置
+# ====================
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.iml
+*.ipynb_checkpoints
+
+# ====================
+# 环境配置
+# ====================
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+
+# ====================
+# 系统文件
+# ====================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+
+# ====================
+# 其他
+# ====================
+# 临时文件
+*.bak
+*.tmp
+*.temp
+
+# 文档构建输出
+docs/_build/
+
+# Jupyter Notebook 输出
+.ipynb_checkpoints/

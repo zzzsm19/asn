@@ -1,0 +1,25 @@
+llm:
+  llm_name: OpenAI
+  llm_model: /data1/zhushengmao/Qwen2___5-14B-Instruct
+  llm_url: http://localhost:8001/v1
+  embed_name: OpenAI
+  embed_model: /data1/zhushengmao/gte_Qwen2-7B-instruct
+  embed_url: http://localhost:8002/v1
+seed: 202504
+parallel: True
+debug: False
+react_strategy: "all"
+simulate_with_data: False
+topic: Blacksky
+data_path: dataset/Blacksky.json
+num_users: 100
+interval: 8H
+time_init_begin: "2024-03-01 00:00:00"
+time_init_end: "2024-03-11 00:00:00"
+time_sim_begin: "2024-03-11 00:00:00"
+time_sim_end: "2024-03-18 00:00:00"
+load_model: ""
+save_path: /data1/zhushengmao/save/Blacksky
+time_window_size: 12H  # 前后各[time_window_size]
+neg_sample_num: 1
+max_thread_num: 35
